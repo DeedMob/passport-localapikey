@@ -1,19 +1,7 @@
 {
-  "name": "passport-localapikey-update",
+  "name": "@deedmob/passport-localapikey",
   "version": "0.6.0",
   "description": "Updated version of local api key authentication strategy for Passport originally created by Sudhakar Mani.",
-  "author": {
-    "name": "antgraf",
-    "email": "antgraf@gmail.com",
-    "url": "http://linkedin.com/in/antonpototsky/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/antgraf/passport-localapikey.git"
-  },
-  "bugs": {
-    "url": "https://github.com/antgraf/passport-localapikey/issues"
-  },
   "main": "./lib/passport-localapikey",
   "dependencies": {
     "pkginfo": "0.2.x",
