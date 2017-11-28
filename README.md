@@ -34,7 +34,7 @@ credentials and calls `done` providing a user.
 #### Authenticate Requests
 
 Use `passport.authenticate()`, specifying the `'localapikey'` strategy, to
-authenticate requests.
+authenticate requests. It extracts the Apikey from the Authorization header via the convention "Authorization: Apikey 1234567890abcdef1234567890abcdef1234567890abcdef"
 
 For example, as route middleware in an [Express](http://expressjs.com/)
 application:
